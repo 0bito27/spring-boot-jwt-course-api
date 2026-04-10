@@ -33,7 +33,6 @@ Simple Spring Boot + React project for managing courses with JWT authentication.
 
    - Go to `courseapp-frontend/` folder:
      ```bash
-     cd courseapp-frontend
      npm install
      npm start
      ```

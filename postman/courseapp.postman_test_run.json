@@ -1,0 +1,154 @@
+{
+	"id": "202a6728-efc6-4c8e-a524-dce40817a892",
+	"name": "courseapp",
+	"timestamp": "2025-06-02T03:30:36.044Z",
+	"collection_id": "44881255-4e4088ad-868e-4392-96ff-013516ddcaba",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-06-02T03:30:35.052Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d59dfc7d-454e-4df0-ac6c-8f07eb3bc3db",
+			"name": "registracija u bazu",
+			"url": "http://localhost:8080/api/auth/register",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				99
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "093cb0cc-b039-425d-a0cb-0488b81b00d4",
+			"name": "login valid credentials",
+			"url": "http://localhost:8080/api/auth/login",
+			"time": 96,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				96
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8e877858-6ac8-4ee9-9420-0aa2ce8521ed",
+			"name": "postavljanje kursa u bazu",
+			"url": "http://localhost:8080/api/courses",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				14
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "afb7fa14-6ee4-407e-b61d-d0c8981d10ae",
+			"name": "lista kurseva",
+			"url": "http://localhost:8080/api/courses",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				12
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7b3a7c92-9978-4f1e-a7aa-235433c8a2e9",
+			"name": "izmena kursa",
+			"url": "http://localhost:8080/api/courses/5",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				14
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ea87165f-e7e7-4d4b-b445-5bfe60314c5e",
+			"name": "brisanje kursa",
+			"url": "http://localhost:8080/api/courses/8",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 246,
+	"collection": {
+		"requests": [
+			{
+				"id": "d59dfc7d-454e-4df0-ac6c-8f07eb3bc3db",
+				"method": "POST"
+			},
+			{
+				"id": "093cb0cc-b039-425d-a0cb-0488b81b00d4",
+				"method": "POST"
+			},
+			{
+				"id": "8e877858-6ac8-4ee9-9420-0aa2ce8521ed",
+				"method": "POST"
+			},
+			{
+				"id": "afb7fa14-6ee4-407e-b61d-d0c8981d10ae",
+				"method": "GET"
+			},
+			{
+				"id": "7b3a7c92-9978-4f1e-a7aa-235433c8a2e9",
+				"method": "PUT"
+			},
+			{
+				"id": "ea87165f-e7e7-4d4b-b445-5bfe60314c5e",
+				"method": "DELETE"
+			}
+		]
+	}
+}
